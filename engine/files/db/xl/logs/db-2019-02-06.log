@@ -1,0 +1,141 @@
+:mo_origin=sms
+:msisdn=1234567891
+:prepaid=0
+:sms=Jodoh
+:telco=xl
+:shortcode=99999
+:trx_id=11161148075604805121
+:trx_date=20190206115857
+:session_id=10000120040114121109114861281
+:datetime=2019-02-06 11:58:57
+FAILED EXECUTE DATABASE : SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''id_mo' bigint(20) NOT NULL AUTO_INCREMENT,
+						  		'mo_origin' varchar(10) N' at line 2
+============================================== 
+
+
+:mo_origin=sms
+:msisdn=1234567891
+:prepaid=0
+:sms=Jodoh
+:telco=xl
+:shortcode=99999
+:trx_id=11161148075604805121
+:trx_date=20190206115857
+:session_id=10000120040114121109114861281
+:datetime=2019-02-06 11:58:57
+SUCCESS EXECUTE DATABASE
+============================================== 
+
+
+:mo_origin=sms
+:msisdn=1234567891
+:prepaid=0
+:sms=Jodoh
+:telco=xl
+:shortcode=99999
+:trx_id=11161148075604805121
+:trx_date=20190206115857
+:session_id=10000120040114121109114861281
+:datetime=2019-02-06 11:58:57
+FAILED EXECUTE DATABASE : SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'mo_incoming_log_201902' already exists
+============================================== 
+
+
+:mo_origin=sms
+:msisdn=1234567891
+:prepaid=0
+:sms=Jodoh
+:telco=xl
+:shortcode=99999
+:trx_id=11161148075604805121
+:trx_date=20190206115857
+:session_id=10000120040114121109114861281
+:datetime=2019-02-06 11:58:57
+FAILED EXECUTE DATABASE : SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'mo_incoming_log_201902' already exists
+============================================== 
+
+
+:mo_origin=sms
+:msisdn=1234567891
+:prepaid=0
+:sms=Jodoh
+:telco=xl
+:shortcode=99999
+:trx_id=11161148075604805121
+:trx_date=20190206115857
+:session_id=10000120040114121109114861281
+:datetime=2019-02-06 11:58:57
+FAILED EXECUTE DATABASE : SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''smsgw_logs.mo_incoming_log_201902' LIMIT 1' at line 1
+============================================== 
+
+
+:mo_origin=sms
+:msisdn=1234567891
+:prepaid=0
+:sms=Jodoh
+:telco=xl
+:shortcode=99999
+:trx_id=11161148075604805121
+:trx_date=20190206115857
+:session_id=10000120040114121109114861281
+:datetime=2019-02-06 11:58:57
+SUCCESS EXECUTE DATABASE
+============================================== 
+
+
+:mo_origin=sms
+:msisdn=1234567891
+:prepaid=0
+:sms=Jodoh
+:telco=xl
+:shortcode=99999
+:trx_id=11161148075604805121
+:trx_date=20190206115857
+:session_id=10000120040114121109114861281
+:datetime=2019-02-06 11:58:57
+SUCCESS EXECUTE DATABASE
+============================================== 
+
+
+:mo_origin=sms
+:msisdn=1234567891
+:prepaid=0
+:sms=Jodoh
+:telco=xl
+:shortcode=99999
+:trx_id=11161148075604805121
+:trx_date=20190206115857
+:session_id=10000120040114121109114861281
+:datetime=2019-02-06 11:58:57
+SUCCESS EXECUTE DATABASE
+============================================== 
+
+
+:mo_origin=sms
+:msisdn=1234567891
+:prepaid=0
+:sms=Jodoh
+:telco=xl
+:shortcode=99999
+:trx_id=11161148075604805121
+:trx_date=20190206115857
+:session_id=10000120040114121109114861281
+:datetime=2019-02-06 11:58:57
+SUCCESS EXECUTE DATABASE
+============================================== 
+
+
+:mo_origin=sms
+:msisdn=1234567890
+:prepaid=0
+:sms=Jodoh
+:telco=xl
+:shortcode=99999
+:trx_id=11161148075604805124
+:trx_date=20190206115820
+:session_id=100001200401141211091148612851
+:datetime=2019-02-06 11:58:20
+SUCCESS EXECUTE DATABASE
+============================================== 
+
+
