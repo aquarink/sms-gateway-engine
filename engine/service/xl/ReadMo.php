@@ -166,14 +166,14 @@ if (!file_exists($spoolFolder)) {
 									// CREATE MT
 									if(isset($replyMT)) {
 										if(count($replyMT) > 0) {
-											// Create MT FILE SPOOL
-											$pathMT = $EngineFolder.'/files/mt/'.$replyMT['TELCO'].'/spools/'.$argument;
-											$filenameMT = $argument.'-mt-'.$replyMT['SESSION_ID'];
-											$textMT = implode('@#@', $replyMT);
-											if(CreateIncomingFile($pathMT,$filenameMT,$textMT,true)) {
-												$mtFileStatus = "Create MT File Spool Success";
-											} else {
-												$mtFileStatus = "Create MT File Spool Failed";
+											// print_r($replyMT); exit();
+											for($i=0; $i < count($replyMT); $i++) {
+
+												// Create MT FILE SPOOL
+												$pathMT = $EngineFolder.'/files/mt/'.$replyMT[$i]['TELCO'].'/spools/'.$argument;
+												$filenameMT = $argument.'-mt-'.$replyMT[$i]['SESSION_ID'];
+												$textMT = implode('@#@', $replyMT[$i]);
+												CreateIncomingFile($pathMT,$filenameMT,$textMT,true)
 											}
 
 											// Delete File MO SPOOL
